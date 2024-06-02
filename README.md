@@ -1,14 +1,18 @@
 # ActivityFragmentLifecycleApp 📱
 
-This Android app, ActivityFragmentLifecycleApp, is designed to help you understand the lifecycle of activities and fragments. It includes five buttons that demonstrate various navigation operations and their impact on the lifecycle events of activities and fragments. These events logs can be seen in Android Studio LogCat.
+This Android app, ActivityFragmentLifecycleApp, is designed to help you understand the lifecycle of activities and fragments. It includes all possible navigation operations and their impact on the lifecycle events of activities and fragments. These event's logs can be seen in Android Studio LogCat.
 
 ## Features
 
-- **Add Fragment One**: Adds Fragment One to the activity.
-- **Add Fragment Two with Back Stack**: Adds Fragment Two to the activity with back stack navigation.
-- **Replace Fragment Three**: Replaces the current fragment with Fragment Three.
-- **Replace Fragment Four with Back Stack**: Replaces the current fragment with Fragment Four using back stack.
-- **Open Second Activity**: Opens the Second Activity from the First activity.
+- Add Fragment One: Adds Fragment One to the screen.
+- Add Fragment One with Backstack: Adds Fragment One to the screen with back stack management.
+- Add Fragment Two: Adds Fragment Two to the screen.
+- Add Fragment Two with Backstack: Adds Fragment Two to the screen with back stack management.
+- Replace Fragment Three: Replaces the current fragment with Fragment Three.
+- Replace Fragment Three with Backstack: Replaces the current fragment with Fragment Three and adds it to the back stack.
+- Replace Fragment Four: Replaces the current fragment with Fragment Four.
+- Replace Fragment Four with Backstack: Replaces the current fragment with Fragment Four and adds it to the back stack.
+- Open Blank Activity: Opens a blank activity in a new window.
 
 ## Usage
 
@@ -32,7 +36,12 @@ To monitor the lifecycle events in Logcat with the "ActivityFragmentLifecycleApp
 2. Enter "ActivityFragmentLifecycleApp" in the search bar or filter.
  
 3. Interact with the buttons in the app to trigger navigation operations and observe the corresponding lifecycle events logged with the "ActivityFragmentLifecycleApp" tag.
-
-<img width="1644" alt="Screenshot 2024-06-02 at 7 08 59 PM" src="https://github.com/SachanKapil/ActivityFragmentLifecycleApp/assets/41327228/82893096-9141-474e-961c-7c5e9e14d85a">
-
-![Screenshot_20240602_184532](https://github.com/SachanKapil/ActivityFragmentLifecycleApp/assets/41327228/194afe4f-5249-4b42-940a-9f657373712e)
+<br>
+<img width="1645" alt="Screenshot 2024-06-03 at 1 50 14 AM" src="https://github.com/SachanKapil/ActivityFragmentLifecycleApp/assets/41327228/33fd86e7-f506-4c63-8313-1da5c6acd0f7">
+<br>
+<br>
+<p align="center">
+  <img src="https://github.com/SachanKapil/ActivityFragmentLifecycleApp/assets/41327228/3eced01c-1a6d-4106-a906-5d3d676344d5" alt="Screenshot_20240603_014854" width="30%">
+  <img src="https://github.com/SachanKapil/ActivityFragmentLifecycleApp/assets/41327228/a014107d-d469-48aa-9274-038cdebe7b6a" alt="Screenshot_20240603_014907" width="30%">
+  <img src="https://github.com/SachanKapil/ActivityFragmentLifecycleApp/assets/41327228/66170620-28d1-4654-8ae1-fb0c750ae3fc" alt="Screenshot_20240603_014917" width="30%">
+</p>
