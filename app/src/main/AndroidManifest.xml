@@ -12,12 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityFragmentLifecycleApp"
         tools:targetApi="31">
+
         <activity
-            android:name=".SecondActivity"
-            android:exported="false"
-            android:theme="@style/Theme.ActivityFragmentLifecycleApp" />
-        <activity
-            android:name=".FirstActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ActivityFragmentLifecycleApp">
             <intent-filter>
@@ -26,6 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LifecycleActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ActivityFragmentLifecycleApp" />
+
+        <activity
+            android:name=".BlankActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ActivityFragmentLifecycleApp" />
     </application>
 
 </manifest>

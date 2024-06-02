@@ -22,12 +22,12 @@ abstract class BaseFragment<T : ViewBinding> : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        Log.d(Constants.APP_TAG, "$subTag -> onAttach called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onAttach called")
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(Constants.APP_TAG, "$subTag -> onCreate called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onCreate called")
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -35,38 +35,43 @@ abstract class BaseFragment<T : ViewBinding> : Fragment() {
             _binding = it
         }
         return binding.root.also {
-            Log.d(Constants.APP_TAG, "$subTag -> onCreateView called")
+            Log.d(Constants.TAG_LOG, "$subTag -> onCreateView called")
         }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        Log.d(Constants.TAG_LOG, "$subTag -> onViewCreated called")
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d(Constants.APP_TAG, "$subTag -> onStart called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onStart called")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(Constants.APP_TAG, "$subTag -> onResume called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onResume called")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(Constants.APP_TAG, "$subTag -> onPause called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onPause called")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(Constants.APP_TAG, "$subTag -> onStop called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onStop called")
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        Log.d(Constants.APP_TAG, "$subTag -> onDestroyView called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onDestroyView called")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(Constants.APP_TAG, "$subTag -> onDestroy called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onDestroy called")
     }
 
     override fun onDetach() {

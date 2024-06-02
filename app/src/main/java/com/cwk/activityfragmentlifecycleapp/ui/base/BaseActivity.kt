@@ -14,37 +14,37 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(Constants.APP_TAG, "$subTag -> onCreate called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onCreate called")
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d(Constants.APP_TAG, "$subTag -> onStart called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onStart called")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(Constants.APP_TAG, "$subTag -> onResume called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onResume called")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(Constants.APP_TAG, "$subTag -> onPause called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onPause called")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(Constants.APP_TAG, "$subTag -> onStop called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onStop called")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(Constants.APP_TAG, "$subTag -> onDestroy called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onDestroy called")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.d(Constants.APP_TAG, "$subTag -> onRestart called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onRestart called")
     }
 
     protected fun addFragment(

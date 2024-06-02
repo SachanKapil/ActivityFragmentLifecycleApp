@@ -1,10 +1,23 @@
 <resources>
     <string name="app_name">ActivityFragmentLifecycleApp</string>
+
+    <string name="txt_activity_main">Main Activity</string>
+    <string name="txt_activity_lifecycle">Lifecycle Activity</string>
+    <string name="txt_activity_blank">Blank Activity</string>
+
     <string name="txt_fragment_one">Fragment One</string>
     <string name="txt_fragment_two">Fragment Two</string>
     <string name="txt_fragment_three">Fragment Three</string>
     <string name="txt_fragment_four">Fragment Four</string>
-    <string name="txt_activity_first">First Activity</string>
-    <string name="txt_activity_second">Second Activity</string>
-    <string name="title_activity_main">MainActivity</string>
+
+    <string name="txt_add_fragment_one">Add Fragment One</string>
+    <string name="txt_add_fragment_one_with_backstack">Add Fragment One with BackStack</string>
+    <string name="txt_add_fragment_two">Add Fragment Two</string>
+    <string name="txt_add_fragment_two_with_backstack">Add Fragment Two with BackStack</string>
+    <string name="txt_replace_fragment_three">Replace Fragment Three</string>
+    <string name="txt_replace_fragment_three_with_backstack">Replace Fragment Three with BackStack</string>
+    <string name="txt_replace_fragment_four">Replace Fragment Four</string>
+    <string name="txt_replace_fragment_four_with_backstack">Replace Fragment Four with BackStack</string>
+    <string name="txt_open_lifecycle_activity">Open Lifecycle Activity</string>
+    <string name="txt_open_blank_activity">Open Blank Activity</string>
 </resources>
