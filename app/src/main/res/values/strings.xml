@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ActivityFragmentLifecycleApp</string>
+    <string name="txt_fragment_one">Fragment One</string>
+    <string name="txt_fragment_two">Fragment Two</string>
+    <string name="txt_fragment_three">Fragment Three</string>
+    <string name="txt_fragment_four">Fragment Four</string>
+    <string name="txt_activity_first">First Activity</string>
+    <string name="txt_activity_second">Second Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
