@@ -76,6 +76,6 @@ abstract class BaseFragment<T : ViewBinding> : Fragment() {
 
     override fun onDetach() {
         super.onDetach()
-        Log.d(subTag, "$subTag -> onDetach called")
+        Log.d(Constants.TAG_LOG, "$subTag -> onDetach called")
     }
 }
